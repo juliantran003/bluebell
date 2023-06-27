@@ -1,5 +1,5 @@
 // IMG
-import connie from "../public/img/connie.png";
+
 import vine from "../public/img/about-vine.png";
 
 // Imports
@@ -31,7 +31,6 @@ export default function About() {
         We put a high priority on communcation with the garden owners to ensure
         we can embody, and hopefully exceed their vision.
       </p>
-      {/* <Image src={connie} width="200" className="connie" /> */}
     </section>
   );
 }
