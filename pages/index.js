@@ -4,8 +4,8 @@ import Head from "next/head";
 
 // Img
 import icon from "../public/img/icons8-garden-secateurs-78.png";
-import plantTop from "../public/img/—Pngtree—flower black and white plant_5322001.png";
-import plantBottom from "../public/img/—Pngtree—flower black and white plant_5322004.png";
+import plantTop from "../public/img/flower1.png";
+import plantBottom from "../public/img/flower2.png";
 import gateClosed from "../public/img/icons8-gate-100.png";
 import gateOpen from "../public/img/icons8-front-gate-open-100.png";
 
