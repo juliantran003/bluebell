@@ -9,7 +9,7 @@ export default function Menu() {
     <menu className="menu">
       {menu.map((menu) => {
         return (
-          <div className="links">
+          <div key={menu.title} className="links">
             <Link href={menu.link}>{menu.title}</Link>
           </div>
         );

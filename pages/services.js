@@ -8,16 +8,16 @@ export default function Services() {
       <section>
         <h2>What we do</h2>
         <ul>
-          {servicesProvided.map((service) => {
-            return <li>{service}</li>;
+          {servicesProvided.map((service, index) => {
+            return <li key={index}>{service}</li>;
           })}
         </ul>
       </section>
       <section>
-        <h2>What we don't do</h2>
+        <h2>What we dont do</h2>
         <ul>
-          {servicesNotProvided.map((service) => {
-            return <li>{service}</li>;
+          {servicesNotProvided.map((service, index) => {
+            return <li key={index}>{service}</li>;
           })}
         </ul>
       </section>

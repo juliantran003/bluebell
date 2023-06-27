@@ -27,10 +27,10 @@ export default function Hero() {
 
       <section className="hero">
         <div className="plantTop">
-          <Image src={plantTop} width="360" />
+          <Image alt="plant" src={plantTop} width="360" />
         </div>
         <div className="plantBottom">
-          <Image src={plantBottom} width="430" />
+          <Image alt="plant" src={plantBottom} width="430" />
         </div>
 
         {/* <Image src={icon} width="60" /> */}
@@ -44,9 +44,9 @@ export default function Hero() {
         onClick={() => router.push("/services")}
       >
         {gate ? (
-          <Image src={gateClosed} width="40" />
+          <Image alt="gate" src={gateClosed} width="40" />
         ) : (
-          <Image src={gateOpen} width="40" />
+          <Image alt="gate" src={gateOpen} width="40" />
         )}
       </div>
     </div>
