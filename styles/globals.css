@@ -156,6 +156,7 @@ a {
   max-width: 500px;
   text-align: center;
   z-index: 1;
+  font-size: 16px;
 }
 
 .about-vine-top {
@@ -205,24 +206,27 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   margin: 0 40px;
 }
 
 .services section h2 {
   font-family: "Astloch", cursive;
   color: #5f8c48;
-  font-size: 24px;
-  text-align: center;
+  font-size: 36px;
+  padding-left: 30px;
 }
 
 .services section ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(129, 130, 122);
-  font-size: 18px;
+  list-style: none;
   font-weight: 200;
+  font-size: 16px;
+}
+
+.services section ul li {
+  margin-top: 5px;
 }
 
 /* HOW IT WORKS */
@@ -243,12 +247,12 @@ a {
   text-align: center;
 }
 
-.how ul li {
+.how ol li {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(129, 130, 122);
-  font-size: 18px;
-  text-align: center;
-  list-style: none;
+  font-size: 16px;
+  /* text-align: center; */
+  /* list-style: none; */
   font-weight: 200;
   padding-top: 20px;
 }
